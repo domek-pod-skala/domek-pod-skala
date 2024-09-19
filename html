@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domek Pod Skałą</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .map-container {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Domek Pod Skałą</h1>
+    <p>Wypoczynek u podnóża Baraniej Góry</p>
+</header>
+
+<nav>
+    <a href="#domek">Domek Pod Skałą</a>
+    <a href="#lokalizacja">Lokalizacja</a>
+    <a href="#atrakcje">Atrakcje</a>
+    <a href="#pokoje">Nasze Pokoje</a>
+    <a href="#kontakt">Kontakt</a>
+</nav>
+
+<section id="domek">
+    <h2>Domek Pod Skałą</h2>
+    <p>Luksusowy domek z sauną, ruską banią, salonem, kuchnią, tarasem i placem zabaw dla dzieci. Idealny na rodzinny wypoczynek i aktywne wakacje.</p>
+    <div class="gallery">
+        <!-- Tu wstawisz zdjęcia -->
+        <img src="domek1.jpg" alt="Domek z zewnątrz">
+        <img src="domek2.jpg" alt="Salon w domku">
+        <img src="domek3.jpg" alt="Widok z balkonu">
+    </div>
+</section>
+
+<section id="lokalizacja">
+    <h2>Lokalizacja</h2>
+    <p>Domek Pod Skałą znajduje się w malowniczej miejscowości Kamesznica, ul. Zorek 34-383, otoczony pięknymi górami i lasami.</p>
+    <div class="map-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2566.4482045415475!2d19.048982515717134!3d49.58636807936752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716f39f13b5a4b3%3A0xa89678e994a8d498!2sZorek%2C%20Kamesznica!5e0!3m2!1spl!2spl!4v1695225109184!5m2!1spl!2spl"
+            frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+
+<section id="atrakcje">
+    <h2>Atrakcje</h2>
+    <p>Zimą: narty, snowboard, skitury, kuligi. Latem: piesze wycieczki, trasy rowerowe, w tym Velo Soła.</p>
+    <div class="gallery">
+        <!-- Tu możesz dodać zdjęcia atrakcji -->
+        <img src="zima.jpg" alt="Zimowe atrakcje">
+        <img src="lato.jpg" alt="Letnie atrakcje">
+    </div>
+</section>
+
+<section id="pokoje">
+    <h2>Nasze Pokoje</h2>
+    <p>W domku znajdziesz trzy komfortowe pokoje: Góralski, Zielone Pastwisko i Redyk. Każdy z nich oferuje niepowtarzalny styl i klimat.</p>
+    <div class="gallery">
+        <!-- Zdjęcia pokoi -->
+        <img src="góralski.jpg" alt="Pokój Góralski">
+        <img src="zielone.jpg" alt="Zielone Pastwisko">
+        <img src="redyk.jpg" alt="Pokój Redyk">
+    </div>
+</section>
+
+<section id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Adres: ul. Zorek, 34-383 Kamesznica</p>
+    <p>Telefon: +48 123 456 789</p>
+    <p>E-mail: <a href="mailto:kontakt@domekpodskala.pl">kontakt@domekpodskala.pl</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Domek Pod Skałą. Wszelkie prawa zastrzeżone.</p>
+</footer>
+
+</body>
+</html>
